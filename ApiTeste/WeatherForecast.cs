@@ -8,6 +8,8 @@ namespace ApiTeste
 
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 
+        //Teste Travado
+
         public string? Summary { get; set; }
 
         public bool? Enabled { get; set; }
